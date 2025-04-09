@@ -1,0 +1,4 @@
+login to AWS ERC using AWS CLI
+
+
+aws ecr get-login-password --region <region_name> | docker login --username AWS --password-stdin <aws_account_number>.dkr.ecr.<region_name>.amazonaws.com
